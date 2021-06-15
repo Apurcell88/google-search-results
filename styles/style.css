@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    border: none;
+}
+
+nav {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-line {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px 0;
+}
+
+#google-icon {
+    width: 50%;
+}
+
+.far {
+    font-size: 1.8rem;
+    color: rgb(62, 111, 202);
+}
