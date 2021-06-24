@@ -3,7 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #dadada;
+    background-color: #e9e9e9;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 #page-container {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
@@ -28,7 +29,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 button {
@@ -43,19 +44,15 @@ nav {
     align-items: center;
 }
 
-#hamburger-icon {
-    
-}
-
 .hamburger-line {
     width: 20px;
     height: 2px;
-    background-color: #000;
+    background-color: rgb(104, 104, 104);
     margin: 3px 0;
 }
 
 #google-icon {
-    width: 50%;
+    width: 35%;
 }
 
 .far {
@@ -87,7 +84,24 @@ nav {
 }
 
 .category {
-    
+    text-decoration: none;
+    color:rgb(121, 121, 121);
+    font-size: 14px;
 }
 /* ******************************************** */
 
+/* Main section */
+#top-stories-headline-container {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#top-stories-headline {
+    padding-left: 15px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
