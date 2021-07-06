@@ -14,59 +14,69 @@
 <body>
     <div id="page-container">
         <header>
-            <nav class="white">
-                <div id="hamburger-icon" class="white">
+            <nav>
+                <div id="hamburger-icon">
                     <div class="hamburger-line"></div>
                     <div class="hamburger-line"></div>
                     <div class="hamburger-line"></div>
                 </div>
                 <div>
-                    <button class="white"><a class="white" href="https://www.google.com"><img id="google-icon" class="white" src="images/google-image.png" alt=""></a></button>
+                    <button><a href="https://www.google.com"><img id="google-icon" src="images/google-image.png" alt=""></a></button>
                 </div>
                 <div>
-                    <i class="far fa-user-circle white"></i>
+                    <i class="far fa-user-circle"></i>
                 </div>
             </nav>
-            <article class="white" id="search-bar-container">
-                <input class="white" id="search-bar" type="text">
+            <article id="search-bar-container">
+                <input id="search-bar" type="text">
             </article>
-            <article id="categories-container" class="white">
-                <a href="x" class="category white">All</a>
-                <a href="x" class="category white">Books</a>
-                <a href="x" class="category white">News</a>
-                <a href="x" class="category white">Videos</a>
-                <a href="x" class="category white">Images</a>
-                <a href="x" class="category white">Maps</a>
+            <article id="categories-container">
+                <a href="x" class="category">All</a>
+                <a href="x" class="category">Books</a>
+                <a href="x" class="category">News</a>
+                <a href="x" class="category">Videos</a>
+                <a href="x" class="category">Images</a>
+                <a href="x" class="category">Maps</a>
             </article>
         </header>
 
+        <div class="divider"></div>
+
         <main>
-            <div id="top-stories-container" class="white">
+            <div id="top-stories-container">
                 <h2 class="sub-headline">Top stories</h2>
-                <h3 id="top-stories-headline" class="white">Tropical Storm Danny makes landfall in South Carolina</h3>
+                <h3 id="top-stories-headline">Tropical Storm Danny makes landfall in South Carolina</h3>
                 <section id="top-story-card-container">
-                    <article class="top-story-card white">
-                        <img src="images/hurricane.jpg" alt="hurricane blowing in">
-                        <article class="top-story-card-text white">
-                            <p class="news-station white">Live 5 News</p>
-                            <a class="story-headline white" href="x">Danny weakens to a tropical depression as rain continues over portions of South Carolina</a>
+                    <article class="top-story-card">
+                        <img class="story-card-img" src="images/hurricane.jpg" alt="hurricane blowing in">
+                        <article class="top-story-card-text">
+                            <p class="news-station">Live 5 News</p>
+                            <a class="story-headline" href="x">Danny weakens to a tropical depression as rain continues over portions of South Carolina</a>
                         </article>
                     </article>
-                    <article class="top-story-card white">
-                        <img src="images/lightning.jpg" alt="lightning lighting the sky">
-                        <article class="top-story-card-text white">
-                            <p class=" news-station white">News19</p>
-                            <a class="story-headline white" href="x">Tropical Storm Danny makes landfall along South Carolina coast</a>
+                    <article class="top-story-card">
+                        <img class="story-card-img" src="images/lightning.jpg" alt="lightning lighting the sky">
+                        <article class="top-story-card-text">
+                            <p class=" news-station">News19</p>
+                            <a class="story-headline" href="x">Tropical Storm Danny makes landfall along South Carolina coast</a>
                         </article>
                     </article>
                 </section>
                 <button id="more-news-btn">More News</button>
             </div>
 
-            <div id="videos-container" class="white">
-                <h2 class="sub-headline">Videos</h2>
+            <div class="divider"></div>
+
+            <h2 class="sub-headline">Videos</h2>
+
+            <div id="videos-container">
                 <article class="video-card">
-                    
+                    <img class="video-card-img" src="images/forest.jpg" alt="a sea of trees">
+                    <div class="video-info">
+                        <h3><a href="x">Tropical Storm Danny nears landfall off South...</a></h3>
+                        <p>YouTube</p>
+                        <p>1 week ago</p>
+                    </div>
                 </article>
             </div>
         </main>
